@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Helpful Hotwire</title>
+    <link rel="shortcut icon" type="image/png" href="images/hotwire.png">
+	<link rel = "stylesheet" type = "text/css" href = "hh.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  
+  <body>
+	<div id='header'>
+		<h1>Helpful Hotwire</h1>
+	</div>
+	<div id='scoreboard'>
+	    <div id='fueler'><p id='fuel'></p></div>
+	    <div id='bombcount'><p id='bombs'></p></div>
+		<div id='counter'><p id='count'></p></div>
+	</div>
+
+    <div id = "game">
+	  
+	  <div id="hwire">
+		<img src="images/hotelicon.png" id="hi">
+	  </div>
+	  
+	  <div id ="start">
+	    <p>CLICK to Start</p>
+	  </div>
+	  
+	</div>
+	
+	<audio id="hsaudio" loop="loop" muted controls>
+		<source src="music/HelpfulHotwire.mp3" type="audio/mpeg">
+	</audio>
+	
+	<button id='abouthh' title="About Helpful Hotwire">?</button>
+	
+	<div id='about'>
+		<img src='images/hhposter.png' id='poster'>
+		<p id='abp'>Welcome To Helpful Hotwire! TOUCH or CLICK to avoid the EMPTY ROOMS!
+		Press "B" or 2-finger tap to deploy Room-Fill devices.
+		Keep an eye on your RevPAR meter...
+		Good luck!
+		</p>
+	</div>
+	<div id='endgame'></div>
+	<div id='hfill'></div>
+	<script src = "hh.js"></script>
+  </body>
+</html>
