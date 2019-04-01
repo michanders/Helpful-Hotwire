@@ -4,7 +4,7 @@ body {
 	width: 100%;
 	background: #f13439;
 	background-image: url("images/bghh.png");
-	font-family: calibri;
+	font-family: arial;
 }
 
 #abouthh {
@@ -18,14 +18,14 @@ body {
 	color: white;
 	border: none;
 	font-size: 30px;
-	opacity: .4;
+	opacity: .8;
 	outline: none;
 }
 
 #about {
 	display: none;
 	margin: auto;
-	font-size: 20px;
+	font-size: 25px;
 	width: 75%;
 	height: 500px;
 	background: #f13439;
@@ -62,10 +62,19 @@ body {
 }
 
 #header h1 {
+	display: inline;
 	margin: auto;
 	position: relative;
 	top: 5px;
 	font-size: 28px;
+	width: 150px;
+}
+
+#hlw {
+	position: relative;
+	margin: none;
+	width: 125px;
+	top: 7.5px;
 }
 
 #scoreboard {
@@ -95,8 +104,9 @@ body {
 
 #fueler {
 	float: left;
-	left: 0px;
+	left: 4px;
 	top: 10px;
+	width: 160px;
 }
 
 #bombcount {

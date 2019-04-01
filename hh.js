@@ -57,7 +57,7 @@ function checkImpact(obj){
 			}
 			else if (obj.className === 'bomb') {
 				obj.remove();
-				bombs.innerHTML = "R-Fill: " + 1;
+				bombs.innerHTML = "Rooms Fill: " + 1;
 				bomb = true;
 				clearInterval(hBombInterval)
 			}
@@ -185,7 +185,7 @@ function hFill(e) {
 		bomb = false;
 		HFILL.style.opacity = 1;
 		HFILL.style.zIndex = 1;
-		bombs.innerHTML = "R-Fill: " + 0;
+		bombs.innerHTML = "Rooms Fill: " + 0;
 		hBomber();
 		sethBombInterval();
 		for (var x = 0; x < OBJECTTYPE.length; x++){
@@ -210,7 +210,7 @@ function displayScore() {
 
 function displayFuel(){
 	var fuels = document.getElementById('fuel');
-    fuels.innerHTML = "RevPAR: " + parseInt(fuel);
+    fuels.innerHTML = "Hotwire Fuel: " + parseInt(fuel);
 }
 
 function positionToInteger(p) {
@@ -346,7 +346,7 @@ function openInNewTab(url) {
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
 	stars = false;
 	AUDIO.style.display = "none";
-	START.innerHTML = "DOUBLE TAP to Start";
+	START.innerHTML = "DOUBLE TAP to start avoiding empty rooms";
 	GAME.addEventListener('touchstart', takeoff);
 	GAME.style.width = "95%";
 	GAME.style.borderBottom = '2px solid white';
@@ -367,7 +367,7 @@ function musicOn(e){
 
 displayScore();
 displayFuel();
-bombs.innerHTML = "R-Fill: " + 0;
+bombs.innerHTML = "Rooms Fill: " + 0;
 GAME.addEventListener('mousedown', takeoff);
 
 
