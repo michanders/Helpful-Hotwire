@@ -9,7 +9,6 @@ const GAME_HEIGHT = $('#game').height();
 const START = document.getElementById('start');
 const ABOUT = document.getElementById('about');
 const ENDGAME = document.getElementById('endgame');
-const CLICK = document.getElementById('click');
 var OBJECTTYPE = [];
 const FUELTANK = [];
 var bombs = document.getElementById('bombs');
@@ -328,7 +327,6 @@ $(function() {
     $("#abouthh").click(function() {
     }, function() {
         $("#about").toggle();
-		CLICK.style.display = 'none';
     });
 });
 
@@ -357,7 +355,6 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
 	ABOUT.style.left = "2.5%";
 	ABOUT.style.fontSize = "28px";
 	HFILL.style.left = "2.5%";
-	CLICK.style.display = 'none';
 	window.addEventListener('touchstart', musicOn);
 }
 

@@ -234,15 +234,3 @@ audio {
   left: 12.5%;
   z-index: -1;
 }
-
-#click {
-  margin: none;
-  position: absolute;
-  bottom: 125px;
-  width: 160px;
-}
-
-#clickhere {
-	margin: none;
-	width: 150px;
-}
