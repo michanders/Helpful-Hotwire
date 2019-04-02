@@ -10,22 +10,22 @@ body {
 #abouthh {
 	margin: none;
 	position: absolute;
-	top: 5px;
-	left: 5px;
-	width: 36px;
+	bottom: 10px;
+	left: 1%;
+	width: 150px;
 	height: 36px;
 	background: transparent;
 	color: white;
-	border: none;
-	font-size: 30px;
-	opacity: .8;
+	border: 2px solid white;
+	border-radius: 20px;
+	font-size: 20px;
 	outline: none;
 }
 
 #about {
 	display: none;
 	margin: auto;
-	font-size: 25px;
+	font-size: 23px;
 	width: 75%;
 	height: 500px;
 	background: #f13439;
@@ -41,7 +41,7 @@ body {
 #abp {
 	margin: none;
 	padding: 3%;
-	height: 500px;
+	height: 400px;
 	text-align: left;
 }
 
@@ -235,3 +235,14 @@ audio {
   z-index: -1;
 }
 
+#click {
+  margin: none;
+  position: absolute;
+  bottom: 125px;
+  width: 160px;
+}
+
+#clickhere {
+	margin: none;
+	width: 150px;
+}
