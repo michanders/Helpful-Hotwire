@@ -345,7 +345,7 @@ function openInNewTab(url) {
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
 	stars = false;
 	AUDIO.style.display = "none";
-	START.innerHTML = "DOUBLE TAP to start avoiding empty rooms";
+	START.innerHTML = "2-FINGER TAP to start avoiding empty rooms";
 	GAME.addEventListener('touchstart', takeoff);
 	GAME.style.width = "95%";
 	GAME.style.borderBottom = '2px solid white';
